@@ -1,5 +1,6 @@
 <template>
   <button
+    v-bind="$attrs"
     @click="openLink"
     class="w-full bg-blue-500 text-white py-2 px-4 rounded mb-2 hover:bg-blue-600 active:bg-blue-700"
   >
@@ -13,7 +14,6 @@ const { title, url, jumpOut } = defineProps<{
   url: string
   jumpOut: number
 }>()
-
 
 function openLink() {
   if (jumpOut === 1) {
