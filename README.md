@@ -1,6 +1,9 @@
 # Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+EVALUATION PROJECT
+## Clone the repository (or unzip the folder if provided):
+git clone https://github.com/bloodjens1023/project_evaluation.git
+cd project_evaluation
 
 ## Setup
 
@@ -71,5 +74,23 @@ yarn preview
 # bun
 bun run preview
 ```
+## Note 
+Tailwind CSS is used for styling and responsive mobile layout.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Links open in new tab if jumpOut === 1, otherwise in the same tab.
+
+Loading and error states are handled gracefully.
+
+╔══════════════════════════════╗
+║                              ║
+║       🙏 THANK YOU! 🙏       ║
+║                              ║
+║ Thank you for reviewing this  ║
+║ project! I hope the /service ║
+║ page meets your expectations. ║
+║                              ║
+║    ✨ Looking forward to ✨    ║
+║     your feedback & next     ║
+║          steps!              ║
+║                              ║
+╚══════════════════════════════╝
