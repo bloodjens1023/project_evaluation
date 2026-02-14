@@ -81,16 +81,13 @@ Links open in new tab if jumpOut === 1, otherwise in the same tab.
 
 Loading and error states are handled gracefully.
 
-╔══════════════════════════════╗
-║                              ║
-║       🙏 THANK YOU! 🙏       ║
-║                              ║
-║ Thank you for reviewing this  ║
-║ project! I hope the /service ║
-║ page meets your expectations. ║
-║                              ║
-║    ✨ Looking forward to ✨    ║
-║     your feedback & next     ║
-║          steps!              ║
-║                              ║
-╚══════════════════════════════╝
+
+---
+
+## 🙏 Thank You!
+
+Thank you for taking the time to review this project!  
+I hope the `/service` page implementation meets your expectations.  
+
+Looking forward to your feedback and the next steps. ✨
+
