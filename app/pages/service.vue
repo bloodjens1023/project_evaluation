@@ -44,33 +44,11 @@
     </div>
 
     <div class="max-w-2xl mx-auto px-4 py-8">
-      <div
+      <div v-if="!loading"
         class="bg-gradient-to-br from-slate-800/50 to-blue-900/30 backdrop-blur-md rounded-2xl shadow-2xl p-6 mb-8 text-center border border-blue-800/20"
       >
-        <div
-          class="w-20 h-20 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-full flex items-center justify-center mx-auto mb-4 border border-blue-500/30"
-        >
-          <svg
-            width="30"
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-10 w-10 text-blue-400"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
-            />
-          </svg>
-        </div>
-        <p class="text-slate-200 text-lg font-medium">
-          Our support team will respond to you as soon as possible.
-        </p>
-        <p class="text-slate-400 text-sm mt-2">
-          Choose the option that best fits your needs
+        <p class="text-white text-sm mt-2">
+          After receiving your comments, our customer support team will respond as quickly as possible during business hours. Please be patient, thank you!
         </p>
       </div>
 
