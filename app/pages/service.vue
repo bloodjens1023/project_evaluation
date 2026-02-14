@@ -1,15 +1,16 @@
 <template>
   <div class="min-h-screen bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900">
-    <div class="bg-gradient-to-r from-slate-800/80 to-blue-900/80 backdrop-blur-sm text-white shadow-xl border-b border-blue-800/30">
+    <div class="bg-gradient-to-b from-[#162d77] to-[#1f4789] backdrop-blur-sm text-white shadow-xl border-b border-blue-800/30  bg-cover test " style="background-image: url(&quot;https://downpg117.uqianbao.com/source/public/static/webp/OMR6_kmW.webp&quot;); ">
+      <div class="bg-contain h-[68px] w-[95px] absolute z-[0] bottom-[-30px] right-[0px]" style="background-image: url(&quot;https://downpg117.uqianbao.com/source/public/static/webp/DnbsAF0P.webp&quot;);">
+
+      </div>
       <div class="px-4 py-4 flex items-center max-w-3xl mx-auto w-full">
         <button 
           @click="goBack" 
-          class="mr-4 p-2 hover:bg-blue-800/50 rounded-full transition-all duration-200 w-30"
+          class="mr-4 p-2 bg-blue-800/50 rounded-xl transition-all duration-200 w-30"
           aria-label="Back"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
-          </svg>
+          <img src="https://downpg117.uqianbao.com/source/public/static/svg/Cz-n34NG.svg" alt="" srcset="">
         </button>
         <h1 class="text-xl font-semibold flex-1 text-center">Customer Service</h1>
         <div class="w-10"></div>
@@ -32,7 +33,6 @@
       </div>
 
       <div v-if="loading" class="flex flex-col items-center justify-center py-12">
-        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-500 mb-4"></div>
         <Loading/>
       </div>
       
@@ -67,6 +67,7 @@
     </div>
   </div>
 </template>
+
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
